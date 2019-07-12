@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelcomeVC: UIViewController {
     @IBOutlet weak var swooshLogo: UIImageView!
     @IBOutlet weak var bgImage: UIImageView!
     
@@ -17,6 +17,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     /*  swooshLogo.frame = CGRect(x: view.frame.size.width/2 - swooshLogo.frame.size.width/2, y: 50, width: swooshLogo.frame.size.width, height: swooshLogo.frame.size.height)
         bgImage.frame = view.frame  */
+        
+    }
+    @IBAction func unwindFromLeagueVC(unwindSegue:UIStoryboardSegue)
+    {
         
     }
 
