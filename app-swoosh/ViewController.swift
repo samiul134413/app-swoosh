@@ -19,6 +19,11 @@ class ViewController: UIViewController {
         bgImage.frame = view.frame  */
         
     }
+    
+    @IBAction func unwindFromLeagueVC(unwindSegue : UIStoryboardSegue )
+    {
+        
+    }
 
 
 }
