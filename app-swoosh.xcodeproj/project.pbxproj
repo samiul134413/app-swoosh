@@ -68,10 +68,10 @@
 		323A59A822D7E02F0019284F /* app-swoosh */ = {
 			isa = PBXGroup;
 			children = (
-				324DF31522D8F77A00A14258 /* Model */,
-				324DF31622D8F78300A14258 /* Controller */,
-				3214E18D22D7E50F00AEAEF2 /* View */,
 				323A59A922D7E02F0019284F /* AppDelegate.swift */,
+				324DF31522D8F77A00A14258 /* Model */,
+				3214E18D22D7E50F00AEAEF2 /* View */,
+				324DF31622D8F78300A14258 /* Controller */,
 				323A59AD22D7E02F0019284F /* Main.storyboard */,
 				323A59B022D7E0300019284F /* Assets.xcassets */,
 				323A59B222D7E0300019284F /* LaunchScreen.storyboard */,
