@@ -26,5 +26,10 @@ class LeagueVC: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    
+    @IBAction func onNextTap(_ sender: Any)
+    {
+        performSegue(withIdentifier: "skillVCSegue", sender: self)
+    }
+    
 }

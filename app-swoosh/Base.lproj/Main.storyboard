@@ -88,7 +88,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="esF-fs-8zH" kind="show" id="FPA-IL-dVb"/>
+                                    <action selector="onNextTap:" destination="MHY-3W-rIN" eventType="touchUpInside" id="9qF-A4-EqS"/>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="zBK-kF-4Qc">
@@ -187,6 +187,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="7YC-Hg-U6y"/>
                     </view>
+                    <connections>
+                        <segue destination="esF-fs-8zH" kind="show" identifier="skillVCSegue" id="Hgd-af-UmP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iX6-hS-lhc" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="pxW-fW-OTb" userLabel="Exit" sceneMemberID="exit"/>
@@ -214,9 +217,6 @@
                                 <state key="normal" image="backButton">
                                     <color key="titleColor" red="0.98747676610000001" green="0.96809965369999995" blue="0.96388763190000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
-                                <connections>
-                                    <segue destination="MHY-3W-rIN" kind="show" id="dar-eR-6Xw"/>
-                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="WNV-FJ-ib2">
                                 <rect key="frame" x="10" y="50" width="355" height="92"/>
@@ -310,7 +310,4 @@
         <image name="swooshLogo" width="119" height="20"/>
         <image name="welcomeScreenBG" width="414" height="736"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="dar-eR-6Xw"/>
-    </inferredMetricsTieBreakers>
 </document>
