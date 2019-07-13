@@ -9,6 +9,6 @@
 import Foundation
 struct Player
 {
-    var skill:String?
-    var league:String?
+    var skill:String!
+    var league:String!
 }

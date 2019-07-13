@@ -17,7 +17,7 @@ class LeagueVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        player = Player() //initialize struct
+        player = Player()    //initialize struct
 
         // Do any additional setup after loading the view.
     }
@@ -53,7 +53,13 @@ class LeagueVC: UIViewController {
     {
         selectLeague(leagueType: "coed")
     }
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let skillVC = segue.destination as? SkillVC
+        {
+            skillVC.player = self.player
+            
+        }
+    }
     
     
     
